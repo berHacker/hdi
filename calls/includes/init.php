@@ -1,9 +1,12 @@
 <?php  
 // Global Settings
+/**
+ * Global default timezone settings
+ */
 date_default_timezone_set('UTC');
 
 // Physical
-defined('ROOT')     ? NULL: define('ROOT', 'C:' .DIRECTORY_SEPARATOR. 'wamp' .DIRECTORY_SEPARATOR. 'www' .DIRECTORY_SEPARATOR. 'clinic');
+defined('ROOT')     ? NULL: define('ROOT', 'C:' .DIRECTORY_SEPARATOR. 'Program Files (x86)' .DIRECTORY_SEPARATOR. 'Zend' .DIRECTORY_SEPARATOR. 'Apache2' .DIRECTORY_SEPARATOR. 'htdocs' .DIRECTORY_SEPARATOR. 'hdi');
 defined('CLASSES')  ? NULL: define('CLASSES', ROOT .DIRECTORY_SEPARATOR. 'calls' .DIRECTORY_SEPARATOR. 'classes');
 defined('INCLUDES') ? NULL: define('INCLUDES', ROOT .DIRECTORY_SEPARATOR. 'calls' .DIRECTORY_SEPARATOR. 'includes');
 
